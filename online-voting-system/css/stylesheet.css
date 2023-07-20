@@ -1,0 +1,165 @@
+input {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+select {
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#upload {
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+#headerSection {
+  font-size: 22px;
+  color:#ff5e00;
+  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#login {
+  font-size: 22px;
+  color:black;
+  padding-bottom: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#loginSection {
+  padding: 25px;
+}
+
+#form_input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #ff5e00;
+}
+
+body {
+  
+  background-color:white !important;
+}
+
+#loginbtn {
+  padding: 5px;
+  font-size: 15px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+}
+
+#reglink {
+  padding: 5px;
+  font-size: 15px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#mainSection {
+  padding: 10px;
+}
+
+#profileSection {
+  width: 30%;
+  float: left;
+  background-color: white;
+  padding: 20px;
+}
+
+#groupSection {
+  width: 60%;
+  float: right;
+  background-color: white;
+  padding: 20px;
+}
+
+#back-button {
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 15px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+}
+
+#logout-button {
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 5px;
+  font-size: 15px;
+  background-color: #3498db;
+  color: white;
+  border-radius: 5px;
+}
+
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  
+  left: 0;
+  background-color: white;
+  
+}
+
+.right {
+  right: 0;
+  background-color:whitesmoke;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  height: 550px;
+  width: 770px;
+  
+}
+
+.btn-orange{
+  color:#fff;
+  background-color:#ff5e00;
+  border:#ff5e00 solid 2px;
+  font-size:20px;
+  padding:.5rem 1.4rem;
+  border-radius:6px;
+  font-weight:600;
+  box-shadow:0 16px 9px #d5d5d5
+}
+.btn-orange:focus,.btn-orange:hover{
+  background-color:#13850b;
+  color:#fff!important;outline:0;
+  transform:scale(.92);
+  transition:all .3s ease-in-out;
+  box-shadow:none;
+  border-color:#13850b
+}
+
