@@ -3,4 +3,5 @@ This was done understanding the concepts of cryptography, using languages like p
 
 Author:
 Chaitanya Dua
+<br>
 Satvik Tripathi
